@@ -1,0 +1,34 @@
+.container {
+  width: 800px;
+  height: 300px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container > h1:nth-child(n) {
+  width: 30%;
+  height: 150px;
+
+  border: 2px solid #fff;
+  border-radius: 8px;
+  background-color: rgb(60, 9, 126);
+  -webkit-box-shadow: 9px 7px 5px rgba(247, 245, 245, 0.77);
+  -moz-box-shadow: 9px 7px 5px rgba(247, 245, 245, 0.77);
+  box-shadow: 9px 7px 5px rgba(247, 245, 245, 0.77);
+
+  color: rgb(185, 11, 11);
+  text-shadow: 0 0 0.2em rgb(187, 182, 219), 0 0 0.2em rgb(187, 182, 219),
+    0 0 0.2em rgb(187, 182, 219);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.container > h1:nth-child(n):hover {
+  filter: brightness(0.8);
+}
